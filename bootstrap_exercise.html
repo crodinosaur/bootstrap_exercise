@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Wild & Wacky Vegetables</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,21 +19,28 @@
     <![endif]-->
   </head>
   <body>
-  	<div class="container">
-  		<div class="row">
-          <div class="col-xs-12 col-md-3" style= "background-color: lightgrey";>
-            <h1>Some Favorites</h1> 
-				<ul>
-					<li>
-						<a href="#">Celery Root</a>
-					</li>
-					<li>
-						<a href="#">Spaghetti Squash</a>
-					</li>
-					<li>
-						<a href="#">Killer Mushrooms</a>
-					</li>
-				</ul>
+  	<div class="container-fluid" style="margin-top: 10px">
+  		<div class="row-fluid">
+          <div class="col-xs-12 col-md-3 well" style= "background-color: lightgrey";>
+			<ul class="nav">
+				<li><h4>Some Favorites</h4></li>
+				<li>
+					<a href="#">Celery Root</a>
+				</li>
+				<li>
+					<a href="#">Spaghetti Squash</a>
+				</li>
+				<li>
+					<a href="#">Killer Mushrooms</a>
+				</li>
+			</ul>
+			<form>
+				<div class="form-group">
+					<input type="text" class="col-lg-12">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary">Search Recipes</button>
+				</div>
           </div>
           <div class="col-xs-12 col-md-9" style= "background-color: white";>
             <h1>Wild & Wacky Vegetables</h1>
